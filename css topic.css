@@ -2,7 +2,12 @@ p {
     height: 10%;
     width: 30%;
     padding: 10px;
-    border: 20px solid black;
+    border: 20px solid black !important;
     margin: 30px;
     background-color: aqua;
+}
+/* it will impact bg color only note border because you have given above border as important and will apply the all element contains p*/
+p#name {
+    background-color: red; 
+    border: 20px solid green;
 }
