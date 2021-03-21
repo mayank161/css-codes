@@ -1,0 +1,8 @@
+p {
+    height: 10%;
+    width: 30%;
+    padding: 10px;
+    border: 20px solid black;
+    margin: 30px;
+    background-color: aqua;
+}
