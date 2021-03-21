@@ -1,0 +1,22 @@
+.tri {
+    height: 0px;
+    width:  0px;
+    border-bottom: 100px solid yellow;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+/* making circle by giving border circular cut by radius 50% so it will cut 50% from each side*/
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;   
+}
+.leftTri{
+    height: 0px;
+    width:  0px;
+    border-top: 100px solid green;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
