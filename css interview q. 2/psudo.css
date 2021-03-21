@@ -1,0 +1,10 @@
+h2:hover::after {
+    content:  "I am inserted";
+    color: red;
+}
+
+div:hover::before {
+    color: red;
+    font-weight: bold;
+    content: attr(data-name);
+}
