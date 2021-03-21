@@ -1,0 +1,21 @@
+div {
+    height: 30%;
+    width: 30%;
+    padding: 10%;
+    margin: 5%;
+    background-color:pink;
+    border: 2% solid black;
+}
+
+.one{
+    position: relative;
+}
+
+.two{
+    transform: translate(100%,-100%);
+    position:fixed;
+}
+
+.three{
+    position:static;
+}
