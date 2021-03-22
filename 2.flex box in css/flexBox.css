@@ -27,5 +27,5 @@ li {
 .flex2 {
     order: 2;
     border: 2px dotted blue;
-    flex: 2 2 10em;
+    flex: 1 2 10em;
 }
