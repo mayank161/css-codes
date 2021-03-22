@@ -5,7 +5,7 @@ ul {
     border: 5px dotted black;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap should remove for stretch ad shrink flex ratio*/
     justify-content: center;
     height: 200px;
     align-items: center;
@@ -15,4 +15,17 @@ li {
     border: 2px solid green;
     margin: 1%;
     padding: 1%;
+}
+
+/* order gives priority which should display first */
+.flex1 {
+    order: 1;
+    border: 2px dotted red;
+    flex: 1 1 10em;
+}
+
+.flex2 {
+    order: 2;
+    border: 2px dotted blue;
+    flex: 2 2 10em;
 }
