@@ -1,0 +1,12 @@
+.a,.b,.c,.d{
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.b{ background-color: green; z-index: 4; left: 40px; }
+
+.a{ background-color: red; z-index: 3; left: 30px;}
+.c{ background-color: yellow; z-index: 2; left: 20px;}
+.d{ background-color: pink; z-index: 1; left: 10px;}
