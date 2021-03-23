@@ -1,0 +1,13 @@
+div {
+    border: 1px solid black;
+    display: inline-block;
+    margin:-2px
+}
+/* it will decrease the specificity of id treated it as attribute of id*/
+[id="big"] {
+    color: chartreuse;
+}
+
+.first {
+    color: crimson;
+}
