@@ -10,15 +10,15 @@ body {
     font-size: 4em;
 }
 /* media is used for website having more then one mode like in pc and phone (media is used to adjust)*/
-@media (max-width: 500px) {
+@media (min-width: 500px) and (max-width: 1000px) {
     body {
-        color: green;
+        color: yellow;
     }
 }
 /* we can use & as and and or as (,)*/
-@media (orientation: landscape) , (max-width: 500px) {
+@media (orientation: landscape) , (max-width: 1000px) {
     .title {
-        color: pink;
+        color: blue;
     }
 }
 
