@@ -1,0 +1,29 @@
+body {
+    color: red;
+}
+
+.title {
+    font-size: 6em;
+}
+
+.subTitle {
+    font-size: 4em;
+}
+/* media is used for website having more then one mode like in pc and phone (media is used to adjust)*/
+@media (max-width: 500px) {
+    body {
+        color: green;
+    }
+}
+/* we can use & as and and or as (,)*/
+@media (orientation: landscape) , (max-width: 500px) {
+    .title {
+        color: pink;
+    }
+}
+
+@media (orientation: portrait) {
+    .subTitle {
+        color: black;
+    }
+}
