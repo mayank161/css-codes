@@ -1,0 +1,15 @@
+div {
+    display: flex;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    margin-right: 50%;
+}
+
+h3 {
+    margin-left: 3%;
+    margin-top: 3%;
+}
