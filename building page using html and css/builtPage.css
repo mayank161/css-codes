@@ -1,16 +1,41 @@
-div {
+.bar {
     display: flex;
     padding: 1%;
     background-color: black;
     color: white;
-    margin: -1%;
 }
 
-h1 {
-    margin-right: 50%;
+.content {
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
 }
 
 h3 {
-    margin-left: 3%;
-    margin-top: 3%;
+    margin-left: 18%;
+    margin-top: 18%;
+}
+
+#center {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+@media (max-width: 800px) {
+    h3 {
+        display: none;
+    }
+    .content { 
+        flex-direction: column;
+    }
+    #icon {
+        width: 35px;
+        height: 10px;
+        margin: 6px 0;
+        background-color: pink;
+    }
+}
+
+@media (min-width: 800px) {
+    #center { display: none;}
 }
