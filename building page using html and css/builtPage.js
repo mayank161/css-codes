@@ -1,4 +1,4 @@
-var menuBar = document.getElementById('icon');
+var menuBar = document.getElementById('get');
 menuBar.addEventListener('click',downMenu);
 var s = "";
 function downMenu(e) {
@@ -19,3 +19,6 @@ function downMenu(e) {
     newMenu.appendChild(q);
     }
 }
+
+var x = window.matchMedia("(min-width: 800px)");
+if(screen.width == '800px') {location.reload();}
