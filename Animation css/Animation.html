@@ -15,12 +15,30 @@
             height: 200px;
             width: 200px;
             background-color: red;
-            transition: 1s;
+            animation: left-to-right 1s ease-in forwards infinite alternate; 
+            /*left-to-right is not prebuilt keyword you just calling it from keyframes down below*/
+            /* whatEver animation it is it will take 1s to move each step ease in flow and move forwards and then backwards continuously due to alternate infinitely*/
         }
 
-        .parent:hover .child {
-            transform: translate(100%,100%);
-            background-color: green;
+        .child:hover {
+            animation-play-state: paused;
+        }
+        /* yo can put user crated keywords in left-to-right */
+        /* left-to-right is the functionality that you have created above */
+        @keyframes left-to-right {
+            0% {
+                background-color: red;
+                transform: translateX(0);
+            }
+
+            33% { transform: translateY(100%); }
+            50% { background-color: blue; }
+            66% { transform: translateX(100%) translateY(100%); }
+
+            100% {
+                background-color: green;
+                transform: translateX(100%);
+            }
         }
     </style>
 </head>
